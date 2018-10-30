@@ -29,5 +29,12 @@ _Bachelor of Science, Financial Mathematics and Statistics - Class of 2016_
 * [Linux]("https://www.linux.org")
 * [Music]("https://www.toolband.com")
 
+#### [Web Scraper built using Python](https://github.com/jpal29/EPL_SCRAPER)
+
+Cool web scraper that I built to collect player statistics from the English Premier
+League.
+
 #### [Creating a Docker Compose File for a Flask app](/docker_with_flask.html)
+
+Quick how-to for future reference.
 
