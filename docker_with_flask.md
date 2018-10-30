@@ -66,19 +66,22 @@ of the .env file should be as follows
 Make sure you have the docker-compose file saved in the same directory as your 
 flask application. My current project layout is the following. Also note that I saved the schema.sql file in the db directory.
 
+
     .
-    ├── db
-    │   └── schema.sql
-    ├── public_api
-    │   ├── __pycache__
-    │   │   └── app.cpython-35.pyc
-    │   ├── app.py
-    │   ├── docker-compose.yml
-    │   ├── dockerfile
-    │   ├── models.py
-    │   ├── requirements.txt
-    │   ├── useful_commands.sh
-    │   └── util.py
+    |-- db
+    |   `-- schema.sql
+    |-- public_api
+    |   |-- __pycache__
+    |   |   `-- app.cpython-35.pyc
+    |   |-- app.py
+    |   |-- docker-compose.yml
+    |   |-- dockerfile
+    |   |-- models.py
+    |   |-- requirements.txt
+    |   |-- useful_commands.sh
+    |   `-- util.py
+        
+
 
 My understanding is that when you run the ```docker-compose up```, 
 docker will copy the schema.sql file over to ```/docker-entrypoint-initdb.d/``` and that will
