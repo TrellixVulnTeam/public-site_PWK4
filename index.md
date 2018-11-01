@@ -40,3 +40,8 @@ Quick how-to for future reference.
 
 #### [News Aggregator built using React](http://news-congregator.s3-website-us-west-1.amazonaws.com/)
 
+This was an app I built using React. It utilizes the [News API](https://newsapi.org/) to collect 
+news articles and then creates a dashboard with the different article categories. The user can then 
+drill down into the respective categories and select a news provider with articles pertaining to that
+specific category. The source code for this can be found [here](https://github.com/jpal29/news-aggregator).
+
